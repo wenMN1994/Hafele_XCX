@@ -1,21 +1,12 @@
 // pages/more_job/more_job.js
+var jobJsonData = require('../../data/job_data.js');
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    arry: [
-
-      { src: "../../images/job-3.jpg", title: "五金工程师 Project Engineer", name: "海福乐（深圳）贸易有限公司", type:"外贸（非欧美）", education: "专科", seniority: "不限经验", wage: "7-13千/月", address: "深圳-南山区", time: "今天" },
-
-      { src: "../../images/job-2.jpg", title: "LED灯项目工程师", name: "海福乐（深圳）贸易有限公司", type: "外贸（非欧美）", education: "专科", seniority: "3年", wage: "8-10千/月", address: "深圳-南山区", time: "今天" },
-
-      { src: "../../images/job-1.jpg", title: "产品工程师 Product Engineer", name: "海福乐（深圳）贸易有限公司", type: "外贸（非欧美）", education: "专科", seniority: "2-3年", wage: "10-15千/月", address: "深圳-南山区", time: "今天" },
-
-      { src: "../../images/job-4.jpg", title: "产品工程师-宁波办事处 Product Engineer", name: "海福乐（深圳）贸易有限公司", type: "外贸（非欧美）", education: "专科", seniority: "6年", wage: "10-15千/月", address: "深圳-南山区", time: "今天" },
-
-    ],
+    
   },
 
   // 工作详情
@@ -31,7 +22,9 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
+    this.setData({
+      JobDataList: jobJsonData.JobDataList
+    });
   },
 
   /**

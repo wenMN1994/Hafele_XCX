@@ -12,9 +12,11 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    // wx.setNavigationBarTitle({
-    //   title: options.job_title//页面标题为路由参数
-    // })
+    var that = this;
+    that.setData({
+      job_title: options.job_title//options为页面路由过程中传递的参数
+      
+    })
     wx.setNavigationBarTitle({
       title: '职位详情'  //修改title
     })

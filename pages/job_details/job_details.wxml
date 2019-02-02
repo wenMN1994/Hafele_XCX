@@ -1,2 +1,15 @@
 <!--pages/job_details/job_details.wxml-->
-<text>程序员正在火速开发中...</text>
+<view class='app'>
+  <view class='module'>
+    <view class='header'>
+      <view class='line-left'></view>
+      <view class='line-center'>{{job_title}}</view>
+      <view class='line-right'></view>
+    </view>
+  </view>
+  <view class='description'>
+    <view class='title'><image src='../../images/job_title.png'></image> 职位描述</view>
+    <view class='label'></view>
+    <text>基金会范甘迪发回来非官方的开户行</text>
+  </view>
+</view>

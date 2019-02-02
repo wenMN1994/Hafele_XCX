@@ -1,1 +1,82 @@
 /* pages/job_details/job_details.wxss */
+.module{
+  background: #f2f2f2;
+  font-size: 15px;
+  margin-left: 0%;
+  width: 100%;
+  color: #000;
+  height: auto;
+  padding-top: 20px;
+  border-bottom: 0px solid #f2f2f2;
+  overflow: hidden;
+  cursor: move;
+  position: relative;
+}
+
+.header{
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+.line-left{
+  background: #8a8a8a;
+  margin-top: 14.5px;
+  height: 1px;
+  float: left;
+  width: calc(40% - 50px);
+  margin-left: 10%;
+  
+}
+
+.line-center{
+  width: 100px;
+  float: left;
+  text-align: center;
+  height: 100%;
+  font-size: 14px;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.line-right{
+    background:#8a8a8a;
+    margin-top: 14.5px;
+    height: 1px;
+    float: left;
+    width: calc(40% - 50px);
+}
+
+.description{
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 3%;
+  background: #fff;
+  width: 89%;
+  margin-top: 0px;
+  height: auto;
+  overflow: hidden;
+  cursor: move;
+  position: relative;
+  border-radius: 5px;
+  color: #666;
+}
+
+.description .title image{
+  width: 5%;
+  height: 16px;
+  margin-right: 5px;
+  float: left;
+}
+
+.description .title{
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #f2f2f2;
+  
+}

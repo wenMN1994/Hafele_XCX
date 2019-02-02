@@ -2,19 +2,10 @@
 //获取应用实例
 const app = getApp()
 
+var jobJsonData = require('../../data/job_data.js');
+
 Page({
   data: {
-    arry: [
-
-      { src: "../../images/job-3.jpg", text: "五金工程师 Project Engineer" },
-
-      { src: "../../images/job-2.jpg", text: "LED灯项目工程师" },
-
-      { src: "../../images/job-1.jpg", text: "产品工程师 Product Engineer" },
-
-      { src: "../../images/job-4.jpg", text: "产品工程师-宁波办事处 Product Engineer" },
-
-    ],
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
@@ -72,6 +63,9 @@ Page({
     })
   },
   onLoad: function () {
+    this.setData({
+      JobDataList: jobJsonData.JobDataList
+    });
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,

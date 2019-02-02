@@ -21,9 +21,9 @@
   </view>
   <!-- 岗位招聘内容 -->
   <view class='job-content'>
-      <view class='job-item' wx:for="{{arry}}" wx:key="{{arry}}" wx:for-index="idx"    bindtap="job_details">
-        <image src='{{item.src}}'></image>
-        <text>{{item.text}}</text>
+      <view class='job-item' wx:for="{{JobDataList}}" wx:key="item" wx:for-index="idx"    bindtap="job_details">
+        <image src='{{item.src}}' id="{{idx}}"></image>
+        <text>{{item.title}}</text>
       </view>
   </view>
   <!-- 公司基本信息 -->
