@@ -1,0 +1,71 @@
+/* pages/more_job/more_job.wxss */
+.photo{
+  width: 100%;
+  height: 175px;
+}
+
+.photo .bg{
+  width: 100%;
+  height: 175px;
+}
+
+.job-items{
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+}
+
+.job-items .item{
+  width: 90%;
+  height: auto;
+  margin-left: 3%;
+  padding: 5px 8px 20px 8px;
+  /* padding-bottom: 30px; */
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.job-items .item .left{
+  width: 65%;
+  float: left;
+}
+
+.job-items .item .right{
+  width: 28%;
+  text-align: right;
+  float: right;
+}
+
+.job-items .item .up{
+  padding: 12px 1px;
+}
+
+.job-items .item .up .left{
+  font-size: 14px;
+  font-weight: bold;
+  overflow: hidden; /*隐藏溢出的文本 */
+  white-space:nowrap; /*不换行 */
+  text-overflow: ellipsis;
+}
+
+.job-items .item .up .right{
+  font-size: 14px;
+  font-weight: bold;
+  color: #FF7F00;
+  overflow: hidden; /*隐藏溢出的文本 */
+  white-space:nowrap; /*不换行 */
+  text-overflow: ellipsis;
+}
+
+.job-items .item .ct{
+  padding: 12px 1px;
+}
+
+.job-items .item .dn{
+  padding: 12px 1px;
+}
+
+.job-items .item .dn .left{
+  overflow: hidden; /*隐藏溢出的文本 */
+  white-space:nowrap; /*不换行 */
+  text-overflow: ellipsis;
+}

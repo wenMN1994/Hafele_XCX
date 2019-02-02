@@ -1,0 +1,120 @@
+/* pages/company_details/company_details.wxss */
+.photo{
+  width: 100%;
+  height: 175px;
+}
+
+.photo .bg{
+  width: 100%;
+  height: 175px;
+}
+
+.content{
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+}
+
+.content .base{
+  width: 94.5%;
+  height: auto;
+  margin-left: 10px;
+  border-bottom: 1px solid #f2f2f2;
+  padding-bottom: 10px;
+}
+
+.content .base .name{
+  width: 100%;
+  height: auto;
+  line-height: 30px;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  max-width: 100%;
+  min-width: 20%;
+  min-height: 40px;
+  float: left;
+}
+
+.content .base .gz-time{
+  width: 100%;
+  height: auto;
+  line-height: 20px;
+  font-size: 12px;
+  color: #666;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.content .base .gz-time .am{
+  width: auto;
+  height: auto;
+  background: #9ed269;
+  padding: 2px 7px;
+  border-radius: 10px;
+  font-size: 12px;
+  color: #fff;
+  margin: 0 5px;
+}
+
+.content .col{
+  width: 94.5%;
+  height: 38px;
+  margin-left: 10px;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.content .col image{
+  width: 5%;
+  height: 16px;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.content .col .rt{
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.content .col .ct{
+  width: 85%;
+  height: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-left: 8px;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.content .scope{
+  width: 94.5%;
+  height: auto;
+  margin-left: 10px;
+}
+
+.content .scope .title{
+  width: 100%;
+  height: auto;
+  line-height: 30px;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  max-width: 100%;
+  min-width: 20%;
+  min-height: 40px;
+  float: left;
+  margin-top: 10px;
+}
+
+.content .scope .detail{
+  color: #666;
+}

@@ -1,0 +1,251 @@
+/* pages/about/about.wxss */
+.module-address{
+  background: #f2f2f2;
+  font-size: 12px;
+  margin-left: 0%;
+  width: 100%;
+  color: #000;
+  height: auto;
+  margin-top: 10px;
+  border-bottom: 0px solid #f2f2f2;
+  overflow: hidden;
+  cursor: move;
+  position: relative;
+}
+
+.header{
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+.line-left{
+  background: #8a8a8a;
+  margin-top: 14.5px;
+  height: 1px;
+  float: left;
+  width: calc(40% - 80px);
+  margin-left: 20%;
+  
+}
+
+.line-center{
+  width: 100px;
+  float: left;
+  text-align: center;
+  height: 100%;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.line-right{
+    background:#8a8a8a;
+    margin-top: 14.5px;
+    height: 1px;
+    float: left;
+    width: calc(40% - 80px);
+}
+
+.item{
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 3%;
+  background: #fff;
+  width: 89%;
+  margin-top: 0px;
+  height: auto;
+  overflow: hidden;
+  cursor: move;
+  position: relative;
+  border-radius: 5px;
+}
+
+.mendian{
+  height: 70px;
+  width: 100%;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.mendian .lt{
+  background: #ff0000;
+  color: #fff;
+  float: left;
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 20px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.mendian .lt .iconfont-shangcheng{
+  width: 60%;
+  height: 60%;
+  margin-top: 8px;
+}
+
+.mendian .rt{
+  width: calc(100% - 50px);
+  float: left;
+  margin-left: 5px;
+  
+}
+
+.mendian .rt .name{
+  width: 100%;
+  height: auto;
+  line-height: 30px;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  max-width: 100%;
+  min-width: 20%;
+  min-height: 40px;
+  float: left;
+}
+
+.mendian .rt .time{
+  width: 100%;
+  height: auto;
+  line-height: 20px;
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
+}
+
+.mendian .rt .time text{
+  width: auto;
+  height: auto;
+  background: #9ed269;
+  padding: 2px 7px;
+  border-radius: 10px;
+  font-size: 12px;
+  color: #fff;
+  margin: 0 5px;
+  
+}
+
+.addr{
+  width: 97%;
+  height: 40px;
+  line-height: 40px;
+}
+
+.addr .lt{
+  width: 85%;
+  float: left;
+}
+
+.addr .lt .iconfont-address{
+  width: 5%;
+  height: 16px;
+  float: left;
+  margin-top: 12px;
+}
+
+.addr .lt .address{
+  width: 90%;
+  height: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-left: 5px;
+  float: left;
+}
+
+.addr .ct{
+  width: 3%;
+  height: auto;
+  float: left;
+  color: #8a8a8a;
+  font-size: 14px;
+  text-align: center;
+}
+
+.addr .rt{
+  width: 12%;
+  height: auto;
+  float: right;
+  text-align: center;
+}
+
+.addr .rt .iconfont-contact{
+  width: 32%;
+  height: 16px;
+  margin-top: 12px;
+}
+
+.btn-container{
+  width: 100%;
+  height: auto;
+  flex-direction: row;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.btn-container image{
+  width: 30%;
+  height: 16px;
+}
+
+.btn-container text{
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}
+
+.btn-container .btn-left{
+  background: #ffc125;
+  border-radius: 10px;
+  width: 40%;
+  height: 35px;
+  margin-left: 7%;
+  float: left;
+  padding-top: 10px;
+}
+
+.btn-container .btn-right{
+  background: #7ccd7c;
+  border-radius: 10px;
+  width: 40%;
+  height: 35px;
+  margin-left: 5%;
+  float: left;
+  padding-top: 10px;
+}
+
+.module-profile{
+  background: #f2f2f2;
+  font-size: 15px;
+  margin-left: 0%;
+  width: 100%;
+  color: #000;
+  height: auto;
+  padding-top: 20px;
+  margin-top: 10px;
+  border-bottom: 0px solid #f2f2f2;
+  overflow: hidden;
+  cursor: move;
+  position: relative;
+}
+
+.module-profile .company-profile{
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 3%;
+  background: #fff;
+  width: 89%;
+  margin-top: 0px;
+  height: auto;
+  overflow: hidden;
+  cursor: move;
+  position: relative;
+  border-radius: 5px;
+  color: #666;
+}

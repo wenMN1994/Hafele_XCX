@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/email/email",
+    "pages/about/about",
+    "pages/logs/logs",
+    "pages/me/me",
+    "pages/company_details/company_details",
+    "pages/job_details/job_details",
+    "pages/more_job/more_job"
+  ],
+  "window": {
+    "backgroundColor": "#E8E8E8",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#FF0000",
+    "navigationBarTitleText": "海福乐（深圳）贸易有限公司",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#ff0000",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home_actived.png"
+      },
+      {
+        "text": "联系我们",
+        "pagePath": "pages/email/email",
+        "iconPath": "images/email.png",
+        "selectedIconPath": "images/email_actived.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/me/me",
+        "iconPath": "images/me.png",
+        "selectedIconPath": "images/me_actived.png"
+      },
+      {
+        "text": "关于",
+        "pagePath": "pages/about/about",
+        "iconPath": "images/about.png",
+        "selectedIconPath": "images/about_actived.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 20000,
+    "downloadFile": 20000
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "debug": false
+}

@@ -1,0 +1,64 @@
+<!--index.wxml-->
+<view class='container'>
+  <!-- 轮播图 -->
+  <view class='slidshow'>
+    <swiper indicatorDots="true" autoplay="true" circular="true">
+      <swiper-item >
+        <image src='../../images/slidshow1.jpg' mode="scaleToFill"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src='../../images/slidshow2.jpg' mode="scaleToFill"></image>
+      </swiper-item>
+    </swiper>
+  </view>
+  <!-- 岗位招聘标题 -->
+  <view class='btt-title-container'>
+    <view class='header'>
+      <view class='tline'></view>
+      <text>岗位招聘</text>
+      <view class='more' bindtap='more_job'>更多>></view>
+    </view>
+  </view>
+  <!-- 岗位招聘内容 -->
+  <view class='job-content'>
+      <view class='job-item' wx:for="{{arry}}" wx:key="{{arry}}" wx:for-index="idx"    bindtap="job_details">
+        <image src='{{item.src}}'></image>
+        <text>{{item.text}}</text>
+      </view>
+  </view>
+  <!-- 公司基本信息 -->
+  <view class='base-info'>
+    <navigator url='../../pages/company_details/company_details'>
+      <view class='mendian'>
+        <view class='lt'>
+          <!-- <view class='iconfont-shangcheng'></view> -->
+          <image class='iconfont-shangcheng' src='../../images/shangcheng.png'></image>
+        </view>
+        <view class='rt'>
+          <view class='name'>海福乐（深圳）贸易有限公司</view>
+          <view class='time'>营业时间:
+            <text>周一至周五 早9:00-18:00</text>
+          </view>
+        </view>
+      </view>
+    </navigator>
+    <view class='addr'>
+      <view class='lt'>
+        <image class='iconfont-address'  src='../../images/address.png'></image>
+        <text class='address' bindtap="map">广东省深圳市南山区蛇口街道望海路1047号利安商务大厦二楼</text>
+      </view>
+      <view class='ct'>|</view>
+      <view class='rt'>
+        <image class='iconfont-contact' src='../../images/kefu.png'></image>
+      </view>
+    </view>
+  </view>
+  <!-- 底线 -->
+  <view class='bottom-line'>
+    <view class='bottom-content'>
+      <view class='bottom-line-left'></view>
+      <view class='bottom-line-center'>HAFELE-EHK</view>
+      <view class='bottom-line-right'></view>
+    </view>
+  </view>
+</view>

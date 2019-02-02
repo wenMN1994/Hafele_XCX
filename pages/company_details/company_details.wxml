@@ -1,0 +1,38 @@
+<!--pages/company_details/company_details.wxml-->
+<view class='app'>
+  <!-- 顶部图片 -->
+  <view class='photo'>
+    <image class='bg' src='../../images/slidshow2.jpg' mode="scaleToFill"></image>
+  </view>
+  <!-- 内容区域 -->
+  <view class='content'>
+    <!-- 基本信息 -->
+    <view class='base'>
+      <!-- 公司名称 -->
+      <view class='name'>海福乐（深圳）贸易有限公司</view>
+      <!-- 工作时间 -->
+      <view class='gz-time'>工作日服务时间：
+        <text class='am'>周一至周五 早9:00-18:00</text>
+      </view>
+    </view>
+    <!-- 地址 -->
+    <view class='col'>
+      <image class='lt' src='../../images/address.png'></image>
+      <text class='ct' bindtap="map">广东省深圳市南山区蛇口街道望海路1047号利安商务大厦二楼</text>
+      <image class='rt' src='../../images/right.png'></image>
+    </view>
+    <!-- 联系方式 -->
+    <view class='col'>
+      <image class='lt' src='../../images/kefu.png'></image>
+      <text class='ct'>0755 26856100</text>
+      <image class='rt' src='../../images/right.png'></image>
+    </view>
+    <!-- 经营范围 -->
+    <view class='scope'>
+      <view class='title'>经营范围</view>
+      <view class='detail'>
+        <text decode="{{true}}">{{business_scope.text}}</text>
+      </view>
+    </view>
+  </view>
+</view>

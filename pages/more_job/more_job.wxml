@@ -1,0 +1,24 @@
+<!--pages/more_job/more_job.wxml-->
+<view class='app'>
+  <!-- 顶部图片 -->
+  <view class='photo'>
+    <image class='bg' src='../../images/slidshow2.jpg' mode="scaleToFill"></image>
+  </view>
+  <!-- 招聘职位 -->
+  <view class='job-items'>
+    <view class='item' wx:for="{{arry}}" wx:key="{{arry}}" wx:for-index="idx" bindtap="job_details">
+      <view class='up'>
+        <view class='left'>{{item.title}}</view>
+        <view class='right'>{{item.wage}}</view>
+      </view>
+      <view class='ct'>
+        <view class='left' style='color:#666;'>{{item.name}}</view>
+        <view class='right' style='color:#666;'>{{item.address}}</view>
+      </view>
+      <view class='dn'>
+        <view class='left' style='color:#666;'><text decode="{{true}}" space="{{true}}">{{item.type}}&nbsp;|&nbsp;{{item.education}}&nbsp;|&nbsp;{{item.seniority}}</text></view>
+        <view class='right' style='color:#666;'>{{item.time}}</view>
+      </view>
+    </view>
+  </view>
+</view>

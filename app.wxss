@@ -1,0 +1,19 @@
+/**app.wxss**/
+page{
+  background-color:#f2f2f2;
+  font-size: 12px;
+  font-family: "Microsoft YaHei", "Helvetica Neue", "Hiragino Sans GB", "Segoe UI", Tahoma, Arial, STHeiti, sans-serif;
+  _font-family: Tahoma, Arial, Helvetica, STHeiti, sans-serif;
+  color: #333333;
+  font-weight: normal;
+  font-style: normal;
+  height: 100%;
+  width: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  overflow-x:hidden;
+} 

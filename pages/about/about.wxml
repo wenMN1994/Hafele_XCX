@@ -1,0 +1,61 @@
+<!--pages/about/about.wxml-->
+<view class='app'>
+   <!-- 门店地址 -->
+  <view class='module-address'>
+    <view class='header'>
+      <view class='line-left'></view>
+      <view class='line-center'>公司地址</view>
+      <view class='line-right'></view>
+    </view>
+    <view class='item'>
+      <navigator url='../../pages/company_details/company_details'>
+        <view class='mendian'>
+          <view class='lt'>
+            <!-- <view class='iconfont-shangcheng'></view> -->
+            <image class='iconfont-shangcheng' src='../../images/shangcheng.png'></image>
+          </view>
+          <view class='rt'>
+            <view class='name'>海福乐（深圳）贸易有限公司</view>
+            <view class='time'>营业时间:
+              <text>周一至周五 早9:00-18:00</text>
+            </view>
+          </view>
+        </view>
+      </navigator>
+      
+      <view class='addr'>
+        <view class='lt'>
+          <image class='iconfont-address'  src='../../images/address.png'></image>
+          <text class='address' bindtap="map">广东省深圳市南山区蛇口街道望海路1047号利安商务大厦二楼</text>
+        </view>
+        <view class='ct'>|</view>
+        <view class='rt'>
+          <image class='iconfont-contact' src='../../images/kefu.png'></image>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='btn-container'>
+    
+    <navigator url="../../pages/index/index" open-type="switchTab" hover-class="other-navigator-hover">
+      <view class='btn-left'>
+        <image src='../../images/home_white.png' mode="aspectFit"></image>
+        <text >返回主页</text>
+      </view>
+    </navigator>
+    <view class='btn-right'>
+      <image src='../../images/kefu_white.png' mode="aspectFit"></image>
+      <text>联系我们</text>
+    </view>
+  </view>
+  <view class='module-profile'>
+    <view class='header'>
+      <view class='line-left'></view>
+      <view class='line-center'>企业简介</view>
+      <view class='line-right'></view>
+    </view>
+    <view class='company-profile'>
+      <text decode="{{true}}">{{profile.text}}</text>
+    </view>
+  </view>
+</view>
