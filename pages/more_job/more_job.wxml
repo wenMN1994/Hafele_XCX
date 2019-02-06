@@ -6,7 +6,7 @@
   </view>
   <!-- 招聘职位 -->
   <view class='job-items'>
-    <view class='item' wx:for="{{JobDataList}}" wx:key="item" wx:for-index="idx" bindtap="job_details">
+    <view class='item' wx:for="{{JobDataList}}" wx:key="item" wx:for-index="idx" bindtap="job_details" id="{{idx}}">
       <view class='up'>
         <view class='left'>{{item.title}}</view>
         <view class='right'>{{item.wage}}</view>

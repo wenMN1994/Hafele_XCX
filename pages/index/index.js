@@ -34,10 +34,12 @@ Page({
   // 工作详情
   job_details: function(e) {
     console.log(e)
-    var job_title = e._relatedInfo.anchorRelatedText;
-    console.log(job_title)
+    var arrayIndex = e.target.id;
+    console.log(arrayIndex)
+    // 把要传递的json对象转换成字符串
+    var jobDetails = JSON.stringify(this.data.JobDataList[arrayIndex]);
     wx.navigateTo({
-      url: '/pages/job_details/job_details?job_title=' + job_title
+      url: '/pages/job_details/job_details?jobDetails=' + jobDetails
    });
   },
 

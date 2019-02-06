@@ -24,13 +24,13 @@
   margin-top: 14.5px;
   height: 1px;
   float: left;
-  width: calc(40% - 50px);
+  width: calc(25% - 50px);
   margin-left: 10%;
   
 }
 
 .line-center{
-  width: 100px;
+  width: 210px;
   float: left;
   text-align: center;
   height: 100%;
@@ -46,7 +46,7 @@
     margin-top: 14.5px;
     height: 1px;
     float: left;
-    width: calc(40% - 50px);
+    width: calc(25% - 50px);
 }
 
 .description{

@@ -13,8 +13,10 @@ Page({
    */
   onLoad: function (options) {
     var that = this;
+    var jobDetail = JSON.parse(options.jobDetails)
     that.setData({
-      job_title: options.job_title//options为页面路由过程中传递的参数
+      // 把接收到的字符串转换成json对象
+      jobDetail: jobDetail
       
     })
     wx.setNavigationBarTitle({
