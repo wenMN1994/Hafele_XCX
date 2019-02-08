@@ -1,2 +1,21 @@
 <!--pages/me/me.wxml-->
-<text>程序员正在火速开发中...</text>
+<view class='app'>
+  <view class='panel'>
+    <view class='logo'>
+      <image src='../../images/logo.png' mode='aspectFit'></image>
+    </view>
+    <view class='form'>
+      <view class='account'>
+        <image src='../../images/me.png' mode='aspectFit'></image>
+        <input></input>
+      </view>
+      <view class='password'>
+        <image src='../../images/password.png' mode='aspectFit'></image>
+        <input password='true'></input>
+      </view>
+    </view>
+    <view class='button'>
+      <button>登录</button>
+    </view>
+  </view>
+</view>

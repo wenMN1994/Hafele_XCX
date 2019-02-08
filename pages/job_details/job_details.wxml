@@ -1,15 +1,24 @@
 <!--pages/job_details/job_details.wxml-->
 <view class='app'>
-  <view class='module'>
-    <view class='header'>
-      <view class='line-left'></view>
-      <view class='line-center'>{{jobDetail.title}}</view>
-      <view class='line-right'></view>
+  <view class='header'>
+    <view class='top'>
+      <view class='left'>{{jobDetail.title}}</view>
+      <view class='right'>{{jobDetail.wage}}</view>
+    </view>
+    <view class='bottom'>
+      <view class='left' style='color:#666;'><text decode="{{true}}" space="{{true}}">{{jobDetail.type}}&nbsp;|&nbsp;{{jobDetail.education}}&nbsp;|&nbsp;{{jobDetail.seniority}}</text></view>
+      <view class='right' style='color:#666;'>{{jobDetail.time}}</view>
     </view>
   </view>
   <view class='description'>
     <view class='title'><image src='../../images/job_title.png'></image> 职位描述</view>
-    <view class='label'></view>
-    <text>{{jobDetail.job_description}}</text>
+    <view class='labels'>
+      <view class='label_item' wx:for="{{labels}}" wx:key="item" wx:for-index="idx">
+        {{item.label}}
+      </view>
+    </view>
+    <view class='job_detail'>
+      <text>{{jobDetail.job_description}}</text>
+    </view>
   </view>
 </view>

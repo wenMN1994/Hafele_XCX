@@ -1,2 +1,7 @@
 <!--pages/email/email.wxml-->
-<text>程序员正在火速开发中...</text>
+<view class='app'>
+  <view class='email'>
+    请将简历发送到一下邮箱：
+    <text>Info.HR@hafele.com</text>
+  </view>
+</view>

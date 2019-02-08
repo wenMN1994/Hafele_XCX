@@ -1,52 +1,52 @@
 /* pages/job_details/job_details.wxss */
-.module{
-  background: #f2f2f2;
-  font-size: 15px;
-  margin-left: 0%;
-  width: 100%;
-  color: #000;
+.header{
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  margin-left: 3%;
+  background: #fff;
+  width: 89%;
+  margin-top: 10px;
   height: auto;
-  padding-top: 20px;
-  border-bottom: 0px solid #f2f2f2;
   overflow: hidden;
   cursor: move;
   position: relative;
+  color: #666;
+  border-radius: 5px;
 }
 
-.header{
-  height: 30px;
-  line-height: 30px;
-  margin-bottom: 10px;
+.header .top{
+  width: 100%;
+  height: auto;
 }
 
-.line-left{
-  background: #8a8a8a;
-  margin-top: 14.5px;
-  height: 1px;
-  float: left;
-  width: calc(25% - 50px);
-  margin-left: 10%;
+.header .top .left{
+  width: 65%;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
   
 }
 
-.line-center{
-  width: 210px;
-  float: left;
-  text-align: center;
-  height: 100%;
+.header .top .right{
   font-size: 14px;
   font-weight: bold;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  color: #FF7F00;
 }
 
-.line-right{
-    background:#8a8a8a;
-    margin-top: 14.5px;
-    height: 1px;
-    float: left;
-    width: calc(25% - 50px);
+.header .left{
+  overflow: hidden; /*隐藏溢出的文本 */
+  white-space:nowrap; /*不换行 */
+  text-overflow: ellipsis;
+  float: left;
+}
+
+.header .right{
+  overflow: hidden; /*隐藏溢出的文本 */
+  white-space:nowrap; /*不换行 */
+  text-overflow: ellipsis;
+  float: right;
 }
 
 .description{
@@ -56,13 +56,13 @@
   margin-left: 3%;
   background: #fff;
   width: 89%;
-  margin-top: 0px;
+  margin-top: 10px;
   height: auto;
   overflow: hidden;
   cursor: move;
   position: relative;
-  border-radius: 5px;
   color: #666;
+  border-radius: 5px;
 }
 
 .description .title image{
@@ -78,5 +78,17 @@
   margin-bottom: 10px;
   padding-bottom: 5px;
   border-bottom: 1px solid #f2f2f2;
-  
+}
+
+.description .labels{
+  width: 100%;
+  height: 100px;
+}
+
+.description .labels .label_item{
+  float: left;
+  border-radius: 9px;
+  border: 1px solid #666;
+  margin: 3px 8px;
+  padding: 2px 8px; 
 }
