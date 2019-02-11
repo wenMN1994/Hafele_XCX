@@ -43,10 +43,12 @@
         <text >返回主页</text>
       </view>
     </navigator>
-    <view class='btn-right'>
-      <image src='../../images/kefu_white.png' mode="aspectFit"></image>
-      <text>联系我们</text>
-    </view>
+    <navigator url="../../pages/email/email" open-type="switchTab" hover-class="other-navigator-hover">
+      <view class='btn-right'>
+        <image src='../../images/kefu_white.png' mode="aspectFit"></image>
+        <text>联系我们</text>
+      </view>
+    </navigator>
   </view>
   <view class='module-profile'>
     <view class='header'>

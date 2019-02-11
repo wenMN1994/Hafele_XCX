@@ -44,7 +44,7 @@
     </navigator>
     <view class='addr'>
       <view class='lt'>
-        <image class='iconfont-address'  src='../../images/address.png'></image>
+        <image class='iconfont-address'  src='../../images/address.png' ></image>
         <text class='address' bindtap="map">广东省深圳市南山区蛇口街道望海路1047号利安商务大厦二楼</text>
       </view>
       <view class='ct'>|</view>

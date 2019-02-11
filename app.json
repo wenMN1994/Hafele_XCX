@@ -7,7 +7,8 @@
     "pages/me/me",
     "pages/company_details/company_details",
     "pages/job_details/job_details",
-    "pages/more_job/more_job"
+    "pages/more_job/more_job",
+    "pages/home/home"
   ],
   "window": {
     "backgroundColor": "#E8E8E8",
