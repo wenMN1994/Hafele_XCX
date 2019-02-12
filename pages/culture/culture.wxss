@@ -1,0 +1,62 @@
+/* pages/email/email.wxss */
+.header{
+  height: 30px;
+  line-height: 30px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.line-left{
+  background: #8a8a8a;
+  margin-top: 14.5px;
+  height: 1px;
+  float: left;
+  width: calc(40% - 80px);
+  margin-left: 18%;
+  
+}
+
+.line-center{
+  width: 100px;
+  float: left;
+  text-align: center;
+  height: 100%;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.line-right{
+    background:#8a8a8a;
+    margin-top: 14.5px;
+    height: 1px;
+    float: left;
+    width: calc(40% - 80px);
+}
+
+.content{
+  padding-top:10px;
+  padding-right: 1px;
+  padding-left: 1px;
+  padding-bottom:10px;
+  margin-left: 0%;    
+  width:100%;
+  height: auto;
+  margin-top: 0px; 
+  cursor: move;
+  position: relative;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.content .item{
+  float: left;
+  width: 45%;
+  height: 250px;
+  margin-left: 3.2%;
+  margin-top: 12px;
+}
+
+.content image{
+  width: 100%;
+  display: block;
+  height: 100%;
+}

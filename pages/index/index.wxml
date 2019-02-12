@@ -4,6 +4,9 @@
   <view class='slidshow'>
     <swiper indicatorDots="true" autoplay="true" circular="true">
       <swiper-item >
+        <image src='../../images/slidshow3.jpg' mode="scaleToFill"></image>
+      </swiper-item>
+      <swiper-item>
         <image src='../../images/slidshow1.jpg' mode="scaleToFill"></image>
       </swiper-item>
       <swiper-item>

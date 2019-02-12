@@ -1,0 +1,22 @@
+<!--pages/email/email.wxml-->
+<view class='app'>
+  <view class='header'>
+    <view class='line-left'></view>
+    <view class='line-center'>企业文化</view>
+    <view class='line-right'></view>
+  </view>
+  <view class='content'>
+      <view class='item'>
+        <image src='../../images/job-1.jpg'></image>
+      </view>
+      <view class='item'>
+        <image src='../../images/job-2.jpg'></image>
+      </view>
+      <view class='item'>
+        <image src='../../images/job-3.jpg'></image>
+      </view>
+      <view class='item'>
+        <image src='../../images/job-4.jpg'></image>
+      </view>
+  </view>
+</view>

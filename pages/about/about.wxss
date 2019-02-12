@@ -25,7 +25,7 @@
   height: 1px;
   float: left;
   width: calc(40% - 80px);
-  margin-left: 20%;
+  margin-left: 18%;
   
 }
 

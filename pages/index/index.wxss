@@ -64,17 +64,25 @@
   border-bottom: 1px solid #f2f2f2;
 }
 
+.job-content .job-item text{
+  overflow: hidden; /*隐藏溢出的文本 */
+  white-space:nowrap; /*不换行 */
+  text-overflow: ellipsis;
+}
+
 .job-content .job-item{
   float: left;
   width: 45%;
   height: 250px;
-  margin-left: 3%;
+  margin-left: 3.2%;
+  margin-bottom: 35px;
+  
 }
 
 .job-content image{
   width: 100%;
   display: block;
-  height: 90%;
+  height: 100%;
 }
 
 .job-content text{

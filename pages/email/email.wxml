@@ -1,7 +1,0 @@
-<!--pages/email/email.wxml-->
-<view class='app'>
-  <view class='email'>
-    请将简历发送到一下邮箱：
-    <text>Info.HR@hafele.com</text>
-  </view>
-</view>
