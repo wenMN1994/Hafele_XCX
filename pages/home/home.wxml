@@ -5,41 +5,29 @@
     <text>HAFELE</text>
   </view>
   <view class='content'>
-    <navigator url=''>
-      <view class='item'>
-        <image class="" src="../../images/sign_in.png" mode="cover"></image>
-        <text>考勤打卡</text>
-      </view>
-    </navigator>
-    <navigator url=''>
-      <view class='item'>
-        <image class="" src="../../images/apply.png" mode="cover"></image>
-        <text>用车申请</text>
-      </view>
-    </navigator>
-    <navigator url=''>
-      <view class='item'>
-        <image class="" src="../../images/leave.png" mode="cover"></image>
-        <text>请假</text>
-      </view>
-    </navigator>
-    <navigator url=''>
-      <view class='item'>
-        <image class="" src="../../images/approval.png" mode="cover"></image>
-        <text>审批</text>
-      </view>
-    </navigator>
-    <navigator url=''>
-      <view class='item'>
-        <image class="" src="../../images/Reimbursement.png" mode="cover"></image>
-        <text>报销</text>
-      </view>
-    </navigator>
-    <navigator url="../../pages/me/me" open-type="switchTab" hover-class="other-navigator-hover">
-      <view class='item'>
-        <image class="" src="../../images/exit.png" mode="cover"></image>
-        <text>退出</text>
-      </view>
-    </navigator>
+    <view class='item' bindtap='goSignin'>
+      <image class="" src="../../images/sign_in.png" mode="cover"></image>
+      <text>考勤打卡</text>
+    </view>
+    <view class='item' bindtap='goSignin'>
+      <image class="" src="../../images/apply.png" mode="cover"></image>
+      <text>用车申请</text>
+    </view>
+    <view class='item' bindtap='goSignin'>
+      <image class="" src="../../images/leave.png" mode="cover"></image>
+      <text>请假</text>
+    </view>
+    <view class='item' bindtap='goSignin'>
+      <image class="" src="../../images/approval.png" mode="cover"></image>
+      <text>审批</text>
+    </view>
+    <view class='item' bindtap='goSignin'>
+      <image class="" src="../../images/Reimbursement.png" mode="cover"></image>
+      <text>报销</text>
+    </view>
+    <view class='item' bindtap='exit'>
+      <image class="" src="../../images/exit.png" mode="cover"></image>
+      <text>退出</text>
+    </view>
   </view>
 </view>

@@ -50,7 +50,7 @@ Page({
    * 页面相关事件处理函数--监听用户下拉动作
    */
   onPullDownRefresh: function () {
-
+    wx.stopPullDownRefresh()
   },
 
   /**
@@ -84,7 +84,7 @@ Page({
   // 登陆操作
   loginClick: function (e) {
     app.globalData.hafelUserInfo = { username: this.data.username, password: this.data.password }
-    if (app.globalData.hafelUserInfo.username == null && app.globalData.hafelUserInfo.password == null) {
+    if (app.globalData.hafelUserInfo.username == 'admin' && app.globalData.hafelUserInfo.password == 'admin') {
       util.showSuccess('登录成功');
       wx.redirectTo({
         url: '../home/home',

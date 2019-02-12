@@ -1,4 +1,5 @@
 // pages/home/home.js
+const util = require('../../utils/util');
 const app = getApp();
 Page({
 
@@ -50,7 +51,7 @@ Page({
    * 页面相关事件处理函数--监听用户下拉动作
    */
   onPullDownRefresh: function () {
-
+    wx.stopPullDownRefresh()
   },
 
   /**
@@ -65,5 +66,26 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  // 点击考勤打卡
+  goSignin: function(e){
+    util.showModel('提示', '开发中...');
+  },
+
+  // 点击退出
+  exit: function(e){
+    wx.showModal({
+      title: '提示',
+      content: '确定执行退出操作？',
+      success(res) {
+        if (res.confirm) {
+          wx.switchTab({
+            url: '../index/index',
+          })
+        }
+      }
+    })
   }
+
 })

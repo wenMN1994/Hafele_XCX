@@ -29,7 +29,7 @@
           <text class='address' bindtap="map">广东省深圳市南山区蛇口街道望海路1047号利安商务大厦二楼</text>
         </view>
         <view class='ct'>|</view>
-        <view class='rt'>
+        <view class='rt' bindtap="callPhone">
           <image class='iconfont-contact' src='../../images/kefu.png'></image>
         </view>
       </view>
@@ -43,12 +43,10 @@
         <text >返回主页</text>
       </view>
     </navigator>
-    <navigator url="../../pages/email/email" open-type="switchTab" hover-class="other-navigator-hover">
-      <view class='btn-right'>
-        <image src='../../images/kefu_white.png' mode="aspectFit"></image>
-        <text>联系我们</text>
-      </view>
-    </navigator>
+    <view class='btn-right' bindtap="callPhone">
+      <image src='../../images/kefu_white.png' mode="aspectFit"></image>
+      <text>联系我们</text>
+    </view>
   </view>
   <view class='module-profile'>
     <view class='header'>

@@ -64,6 +64,13 @@ Page({
       url: '../logs/logs'
     })
   },
+
+  callPhone: function () {
+    wx.makePhoneCall({
+      phoneNumber: '0755-26856100' // 仅为示例，并非真实的电话号码
+    })
+  },
+
   onLoad: function () {
     this.setData({
       JobDataList: jobJsonData.JobDataList
