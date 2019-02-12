@@ -8,7 +8,7 @@
     <navigator url=''>
       <view class='item'>
         <image class="" src="../../images/sign_in.png" mode="cover"></image>
-        <text>签到</text>
+        <text>考勤打卡</text>
       </view>
     </navigator>
     <navigator url=''>
