@@ -3,14 +3,8 @@
   <!-- 轮播图 -->
   <view class='slidshow'>
     <swiper indicatorDots="true" autoplay="true" circular="true">
-      <swiper-item >
-        <image src='../../images/slidshow3.jpg' mode="scaleToFill"></image>
-      </swiper-item>
-      <swiper-item>
-        <image src='../../images/slidshow1.jpg' mode="scaleToFill"></image>
-      </swiper-item>
-      <swiper-item>
-        <image src='../../images/slidshow2.jpg' mode="scaleToFill"></image>
+      <swiper-item  wx:for="{{slidshows}}" wx:key="item" wx:for-index="idx">
+        <image src='{{item.slidshow}}' mode="scaleToFill"></image>
       </swiper-item>
     </swiper>
   </view>

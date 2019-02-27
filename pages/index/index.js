@@ -8,7 +8,13 @@ Page({
   data: {
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    slidshows:[
+      { "slidshow": "../../images/slidshow4.jpg" },
+      { "slidshow": "../../images/slidshow3.jpg" },
+      { "slidshow": "../../images/slidshow1.jpg" },
+      { "slidshow": "../../images/slidshow2.jpg" }
+    ]
   },
   //事件处理函数
   onPullDownRefresh: function () {
